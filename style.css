@@ -1,0 +1,94 @@
+.blue_bg {
+  background: none repeat scroll 0 0 #3bbec0;
+}
+.date_time_top {
+  height: 210px;
+  padding: 10px;
+  text-align: center;
+  width: 32%;
+}
+.blue_bg2 {
+  background: none repeat scroll 0 0 #298586;
+  width: 32%;
+  padding: 10px 10px 10px 10px;
+}
+h3 {
+  color: #fff !important;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 0.9em;
+  margin: 0;
+}
+.frms {
+  border: none !important;
+}
+@media screen and (max-width: 480px) {
+  .date_time_top {
+    height: 210px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+  }
+  .blue_bg2 {
+    background: none repeat scroll 0 0 #298586;
+    width: auto;
+  }
+}
+
+.frms {
+  margin: 0 auto;
+  padding: 10px;
+  border: #ddd 1px solid;
+  border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #333;
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+.frms input:hover,
+textarea:hover,
+select:hover {
+  box-shadow: #dae1e5 0px 0px 5px;
+  -moz-box-shadow: #dae1e5 0px 0px 5px;
+  -webkit-box-shadow: #dae1e5 0px 0px 5px;
+  -o-box-shadow: #dae1e5 0px 0px 5px;
+}
+.frms input:focus,
+textarea:focus,
+select:focus {
+  -webkit-box-shadow: inset 7px 4px 7px -7px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: inset 7px 4px 7px -7px rgba(0, 0, 0, 0.42);
+  box-shadow: inset 7px 4px 7px -7px rgba(0, 0, 0, 0.42);
+  border: #9d9983 1px solid;
+}
+.frms select {
+  width: 99%;
+  background: #eae1e1;
+  border: #ddd 1px solid;
+  border-radius: 0.35em;
+  -moz-border-radius: 0.35em;
+  -webkit-border-radius: 0.35em;
+  -o-border-radius: 0.35em;
+  padding: 0 0.5%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 35px;
+}
+.resp_code {
+  margin: 5px 10px 10px 300px;
+  padding: 10px 20px 10px 20px;
+  color: #333;
+  background: #bfe7bb;
+  border: #ddd 1px solid;
+  border-radius: 0.25em;
+  overflow: auto;
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .resp_code {
+    width: auto !important;
+    margin: 0px !important;
+  }
+}
